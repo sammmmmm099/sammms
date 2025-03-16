@@ -7,46 +7,46 @@ settings = {
     "SPOILER": False,  # bool write True or False
     "FILE_AUTO_DELETE": 3600,  # in seconds
     "AUTO_DEL": True,  # bool write True or False
-    "STICKER_ID": "CAACAgUAA_mckw2STkeY1WMOHJGY4Hs9_1-2fAAIPFAACYLShVon-N6AFLnIiHgQ",
+    "STICKER_ID": "CAACAgUAAxkBAAEEyrBn1m_MaaaLjnodjW4AAbzcykCmWsIAAgwTAAKUplFWyyWkDju3KPIeBA",
     "stk_del_timer": 1, # in seconds
-    "bot_admin": [6321064549] #e.g. 1963929292,38739292827 differetiate admins with a comma
+    "bot_admin": [1077880102,1074804932] #e.g. 1963929292,38739292827 differetiate admins with a comma
 }
 
 HELP_MSG = """help msg
 """  # shown only to admins
 
 # Bot token @Botfather
-TG_BOT_TOKEN = '7533155506:AAAYdp0eZrcrLQFkzuYTzE3zw'
+TG_BOT_TOKEN = '8153965988:AAGYYyszKY2_wHyky0njvgrp4FYE2pb-Xqo'
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "266300"))
+APP_ID = int(os.environ.get("APP_ID", "16978078"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "9ea493e784114c469f5ce4bbd")
+API_HASH = os.environ.get("API_HASH", "91ccaf748f031b656bbf64ff47f990e3")
 
 # Your db channel Id
-DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100250360"))
+DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002358588449"))
 
 # NAME OF OWNER
-OWNER = os.environ.get("OWNER", "VØAT")
+OWNER = os.environ.get("OWNER", "Sai Nallamilli")
 
 # OWNER ID
-OWNER_ID = 6321064549
+OWNER_ID = 1074804932
 
 # SUDO: those who can edit admins in channel
-SUDO = []
+SUDO = [1074804932]
 if OWNER_ID not in SUDO:
     SUDO.append(OWNER_ID)
 
 # Port
-PORT = os.environ.get("PORT", "")
+PORT = os.environ.get("PORT", "8108")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://piper38godb.net/?retryWrites=true&w=majority&appName=leechbot")
-DB_NAME = os.environ.get("DATABASE_NAME", "Gith")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sainallamilli:Bhavya57@cluster0.jh0s4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 # FSUBS configuration
 FSUBS = [
-    {'_id': -109647, "CHANNEL_NAME": "Anime Tomb"}
+    {'_id': -1002358532189, "CHANNEL_NAME": "Animes2u"}
 ]
 
 
@@ -66,7 +66,7 @@ if OWNER_ID not in ADMINS:
     ADMINS.append(OWNER_ID)
 
 # Set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = '<blockquote><b>{previouscaption}\n\n◦ ʙʏ ⌯ @Anime_Tomb</b></blockquote>'
+CUSTOM_CAPTION = '<blockquote><b>{previouscaption}\n\n◦ ʙʏ ⌯ @Animes2u</b></blockquote>'
 
 # Set True if you want to prevent users from forwarding files from the bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
@@ -75,7 +75,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = True  # True or None
 
 BOT_STATS_TEXT = "<blockquote><b>BOT UPTIME</b>\n{uptime}</blockquote>"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
+USER_REPLY_TEXT = "Hey! you dont have access!!"
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
