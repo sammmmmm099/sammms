@@ -148,7 +148,7 @@ def force_sub(func):
                         if link:
                             buttons.append(InlineKeyboardButton(channel_name, url=link))
                         else:
-                            buttons.append(InlineKeyboardButton("Error creating invite link", url="https://t.me/Manga_Yugen"))
+                            buttons.append(InlineKeyboardButton("Error creating invite link", url="https://t.me/Animes3u"))
                     
                 from_link = message.text.split(" ")
                 if len(from_link) > 1:
@@ -471,14 +471,17 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⛩️ TOMB ⛩️', url='https://t.me/Anime_Tomb')
+                    InlineKeyboardButton('Main Channel', url='https://t.me/Animes2u')
+                ],
+                 [
+                    InlineKeyboardButton('Ongoing Anime', url='https://t.me/Animes3u')
                 ],
                 [
-                   InlineKeyboardButton("⚠️ ᴀʙᴏᴜᴛ ⚠️", callback_data = "about"),
+                   InlineKeyboardButton("⚠️ ADMIN HELP ⚠️", url='https://t.me/LuffyDSunGodBot')
+                ],
+                 [
+                   InlineKeyboardButton("Paid Promotions", url='https://t.me/Animes2u_Professor_Bot'),
                    InlineKeyboardButton("✌️ ᴄʟᴏꜱᴇ ✌️", callback_data = "close")
-                ],
-                [
-                   InlineKeyboardButton("ADMIN HELP", callback_data = "help")
                 ]
             ]
         )
@@ -507,11 +510,17 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton('⛩️ TOMB ⛩️', url='https://t.me/Anime_Tomb')
+                 [
+                    InlineKeyboardButton('Main Channel', url='https://t.me/Animes2u')
+                ],
+                 [
+                    InlineKeyboardButton('Ongoing Anime', url='https://t.me/Animes3u')
                 ],
                 [
-                   InlineKeyboardButton("⚠️ ᴀʙᴏᴜᴛ ⚠️", callback_data = "about"),
+                   InlineKeyboardButton("⚠️ ADMIN HELP ⚠️", url='https://t.me/LuffyDSunGodBot')
+                ],
+                 [
+                   InlineKeyboardButton("Paid Promotions", url='https://t.me/Animes2u_Professor_Bot'),
                    InlineKeyboardButton("✌️ ᴄʟᴏꜱᴇ ✌️", callback_data = "close")
                 ]
             ]
