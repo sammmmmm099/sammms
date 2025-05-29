@@ -16,7 +16,7 @@ HELP_MSG = """help msg
 """  # shown only to admins
 
 # Bot token @Botfather
-TG_BOT_TOKEN = '8153965988:AAGYYyszKY2_wHyky0njvgrp4FYE2pb-Xqo'
+TG_BOT_TOKEN = '8107191773:AAE-ic0QR536rWwjttJWUJq6HSNT_DVWf0M'
 # Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16978078"))
 
@@ -27,7 +27,7 @@ API_HASH = os.environ.get("API_HASH", "91ccaf748f031b656bbf64ff47f990e3")
 DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002358588449"))
 
 # NAME OF OWNER
-OWNER = os.environ.get("OWNER", "Sai Nallamilli")
+OWNER = os.environ.get("OWNER", "ꜱʀɴᴠxꜱ")
 
 # OWNER ID
 OWNER_ID = 1074804932
